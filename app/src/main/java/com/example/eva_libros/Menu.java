@@ -18,7 +18,7 @@ public class Menu extends AppCompatActivity {
 
         Resultado = findViewById(R.id.txt_resul);
         String nombreUsuario = getIntent().getStringExtra("Usuario");
-        Resultado.setText("Bienvenido " + nombreUsuario);
+        Resultado.setText("Bienvenido(a) " + nombreUsuario);
 
     }
     public void Visitar(View view){
